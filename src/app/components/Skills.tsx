@@ -1,43 +1,45 @@
+import InfoSection from "./InfoSection";
+
 export default function Skills () {
     return (
-        <section className="py-20 bg-secondary w-full">
-            <div className="text-center flex flex-row px-12">
+        <InfoSection>
+            <div className="flex flex-row text-white justify-between w-full">
                 <div className="flex flex-col items-start justify-start w-1/2 ">
-                    <h2 className="text-xl color-primary mb-8">Hard Skills</h2>
+                    <h2 className="text-xl mb-8">Hard Skills</h2>
                     
                     <ul className="flex flex-wrap items-start flex-col text-start text-lg w-full">
-                        <li>HTML</li>
+                        <li className="text-secondary">HTML</li>
                         <li>CSS</li>
-                        <li>JavaScript</li>
+                        <li className="text-secondary">JavaScript</li>
                         <li>TypeScript</li>
-                        <li>Angular</li>
+                        <li className="text-secondary">Angular</li>
                         <li>Ionic</li>
-                        <li>Capacitor</li>
+                        <li className="text-secondary">Capacitor</li>
                         <li>React</li>
-                        <li>Next.js</li>
+                        <li className="text-secondary">Next.js</li>
                         <li>React Native</li>
-                        <li>Tailwind</li>
+                        <li className="text-secondary">Tailwind</li>
                         <li>Git</li>
-                        <li>GitHub</li>
+                        <li className="text-secondary">GitHub</li>
                         <li>Figma</li>
                     </ul>
                 </div>
                 
-                <div className="flex flex-col items-start justify-start w-1/2">
-                    <h2 className="text-xl color-primary mb-8">Soft Skills</h2>
+                <div className="flex flex-col items-end justify-start w-1/2 text-right">
+                    <h2 className="text-xl mb-8">Soft Skills</h2>
                     
-                    <ul className="flex flex-wrap items-start flex-col text-start text-lg w-full">
+                    <ul className="flex flex-wrap items-end flex-col text-lg w-full">
                         <li>Easy to comunicate</li>
-                        <li>Good time management</li>
+                        <li className="text-secondary">Good time management</li>
                         <li>Self-motivated</li>
-                        <li>Fast learner</li>
+                        <li className="text-secondary">Fast learner</li>
                         <li>Team player</li>
-                        <li>Adaptability</li>
+                        <li className="text-secondary">Adaptability</li>
                         <li>Calm and friendly</li>
-                        <li>Curious, always learning</li>
+                        <li className="text-secondary">Curious, always learning</li>
                     </ul>
                 </div>
             </div>
-        </section>
+        </InfoSection>
     )
 }
