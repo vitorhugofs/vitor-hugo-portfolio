@@ -8,28 +8,26 @@ const config: Config = {
   ],
   theme: {
     screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
     },
     colors: {
-      white: '#C5C6C7',
-      black: '#0B0C10',
-      gray: '#B3B3B3',
-      default: '#222629',
-      'default-dark': '',
-      primary: '#86C232',
-      secondary: '#62892F',
+      white: "#C5C6C7",
+      black: "#0B0C10",
+      gray: "#B3B3B3",
+      default: "#222629",
+      "default-dark": "",
+      primary: "#86C232",
+      secondary: "#62892F",
     },
     fontFamily: {
       sans: ["Montserrat", "sans-serif"],
       serif: ["Montserrat", "sans-serif"],
     },
     extend: {
-      backgroundImage: {
-        
-      },
+      backgroundImage: {},
     },
   },
   plugins: [],
