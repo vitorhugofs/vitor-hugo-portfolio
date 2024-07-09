@@ -11,7 +11,7 @@ export default function Contact() {
           </p>
 
           <a
-            className="mb-4 text-lg text-secondary hover:underline hover:text-primary"
+            className="mb-4 text-lg c-link"
             href="https://linkedin.com/in/vitor-hugo-fernandes-57b95a89/"
           >
             Check my linkedin

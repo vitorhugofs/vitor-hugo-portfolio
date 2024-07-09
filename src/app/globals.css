@@ -11,3 +11,27 @@ body {
     text-wrap: balance;
   }
 }
+
+.c-link {
+  @apply text-secondary hover:underline hover:text-primary;
+}
+
+.c-link:hover {
+  animation: pulse 1s forwards;
+}
+
+.e-title--pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow: 0 0 2px #86c232, 0 0 5px #86c232, 0 0 10px #86c232;
+  }
+  50% {
+    text-shadow: 0 0 5px #86c232, 0 0 10px #86c232, 0 0 20px #86c232;
+  }
+  100% {
+    text-shadow: 0 0 2px #86c232, 0 0 5px #86c232, 0 0 10px #86c232;
+  }
+}

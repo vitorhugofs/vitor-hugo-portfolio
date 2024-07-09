@@ -9,6 +9,9 @@ export default function ProjectCard({ project }: { project: Project }) {
       <Image
         onClick={() => window.open(project.link)}
         className="w-full mb-8 rounded-xl  hover:cursor-pointer hover:scale-[102%] duration-300"
+        width="0"
+        height="0"
+        sizes="100vw"
         src={project.image}
         alt={project.name}
       />
@@ -18,10 +21,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         <p className="text-md text-center text-gray mb-4">
           {project.description}
         </p>
-        <a
-          className="text-lg text-secondary hover:underline hover:text-primary"
-          href={project.link}
-        >
+        <a className="text-lg c-link" href={project.link}>
           Access
         </a>
       </div>
