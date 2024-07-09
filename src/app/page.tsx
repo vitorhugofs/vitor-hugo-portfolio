@@ -70,7 +70,7 @@ export default function Home() {
         onClick={scrollToTop}
         className={
           (showScrollButton ? "" : "hidden absolute") +
-          "fixed cursor-pointer bottom-0 md:bottom-4 right-4 bg-default dark:bg-bg-white text-4xl text-white dark:text-default dark:text-default"
+          "fixed cursor-pointer bottom-4 right-4 bg-default dark:bg-bg-white text-4xl text-white dark:text-default dark:text-default"
         }
       >
         ⬆
