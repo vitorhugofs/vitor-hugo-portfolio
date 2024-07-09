@@ -3,8 +3,8 @@ import InfoSection from "./InfoSection";
 export default function Contact() {
   return (
     <InfoSection>
-      <div className="flex flex-col text-white items-center justify-center">
-        <div className="text-white flex flex-col items-center justify-center">
+      <div className="flex flex-col text-white dark:text-default items-center justify-center">
+        <div className="text-white dark:text-default flex flex-col items-center justify-center">
           <p className="mb-16 text-2xl text-center">
             Have you liked my profile?{" "}
             <span className="text-primary">Let&#39;s work together!</span>
@@ -18,7 +18,7 @@ export default function Contact() {
           </a>
 
           <a
-            className="mb-4 text-lg text-secondary hover:underline hover:text-primary"
+            className="mb-4 text-lg c-link"
             href="mailto:vitorhugo.fernandes12@gmail.com"
           >
             Send me an email!

@@ -52,7 +52,9 @@ export default function Projects() {
 
   return (
     <InfoSection>
-      <h1 className="text-2xl text-white mb-8">My projects</h1>
+      <h1 className="text-2xl text-white dark:text-default mb-8">
+        My projects
+      </h1>
       {projects.map((project, index) => (
         <ProjectCard project={project} key={index} />
       ))}

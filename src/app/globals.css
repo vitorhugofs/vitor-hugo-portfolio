@@ -20,7 +20,7 @@ body {
   animation: pulse 1s forwards;
 }
 
-.e-title--pulse {
+.u-animate--pulse {
   animation: pulse 2s infinite;
 }
 

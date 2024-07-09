@@ -3,7 +3,7 @@ import InfoSection from "./InfoSection";
 export default function Skills() {
   return (
     <InfoSection>
-      <div className="flex flex-row text-white justify-between w-full">
+      <div className="flex flex-row text-white dark:text-default justify-between w-full">
         <div className="flex flex-col items-start justify-start w-1/2 ">
           <h2 className="text-xl mb-8">Hard Skills</h2>
 

@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: "selector",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -14,6 +15,7 @@ const config: Config = {
       xl: "1440px",
     },
     colors: {
+      "bg-white": "#f1f1f1",
       white: "#C5C6C7",
       black: "#0B0C10",
       gray: "#B3B3B3",
